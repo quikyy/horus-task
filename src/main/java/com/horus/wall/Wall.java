@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @NoArgsConstructor
 public class Wall implements IStructure {
+
     private final List<Block> blocks = new ArrayList<>();
 
     @Override
